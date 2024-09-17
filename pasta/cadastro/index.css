@@ -1,0 +1,117 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trilho {
+    width: 90px;
+    height: 10px;
+    background-color: #4d4d4d;
+    border-radius: 20px;
+    margin-left: 95px;
+    border: solid 1px;
+}
+
+.trilho .botao {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: scale(.9);
+    cursor: pointer;
+    position: absolute;
+    left: 102px; 
+    transition: .5s;
+    border: solid 1px;
+}
+
+.trilho.dark .botao {
+    left: 180px;
+    background-color: #c3c3c3;
+}
+
+.trilho.dark {
+    background-color: #fff;
+}
+
+body.dark {
+    background-color: #0a0a0a;
+    transition: .5s;
+}
+
+/* Ajusta a imagem e centraliza */
+.card-img-top {
+    height: auto;
+    max-width: 200px; /* Limita o tamanho máximo da largura */
+    margin: 0 auto; /* Centraliza a imagem */
+    display: block; /* Garante que a imagem se comporte como um bloco */
+}
+
+.card {
+    box-shadow: 2px 8px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.card-title {
+    margin-left: -50px;
+    
+}
+
+.card-body {
+    margin-left: 55px;
+}
+
+.campo {
+   
+    border: none;
+    border-radius: 10px;
+    border: solid 1px;
+}
+#ra{
+margin-left: 10px;
+    
+}
+#senha{
+
+margin-left: 30px;
+
+}
+
+.campo:hover {
+    transform: scale(1.05);
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.btnn{
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(19, 19, 173);
+    color: aliceblue;
+    border: none;
+  
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+.list-group-item{
+
+
+    margin: 0 auto
+}
+
+i {
+    color: black;
+    position: relative;
+    right: 40px;
+    opacity: 0.3;
+    cursor: pointer;
+}
